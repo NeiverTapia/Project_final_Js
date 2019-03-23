@@ -1,19 +1,7 @@
 #photo{
   width: 79%;
 }
-/*
-nav{
-    width: 200px;
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
-    border-top: 2px solid rgb(146, 109, 109);
-}
-#izq{
-    background-color: rgb(251, 255, 254);
-    box-shadow: rgb(189, 172, 172) 8px 8px 10px;
-    width: 300px;
-    height: 700px;
-}*/
+
 body{
    text-align: left;   
    margin: 0;
