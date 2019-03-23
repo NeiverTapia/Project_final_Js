@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hola! Soy Neiver</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="C:\Users\vivelab\Desktop\TopGunLap\Curso_Js\project final\index.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> 
+</head>
+<body class="h-100">
+    <div class="container-fluid px-15">
+        <div class="row">
+            <div id="izq_p" class="col-12 col-sm d-sm-flex justify-content-center align-items-center flex-column  ">
+                <section id="izq" class=" navbar-light navbar-expand-sm">
+                    <div class="title d-flex d-sm-block justify-content-between flex-wrap align-items-center">
+                        <figure class="">
+                            <img class="rounded-circle mb-3 ml-10 d-none d-sm-block" id="photo" src="Neiver.jpg">
+                            <figcaption>
+                             <h1 class="text-muted" >Hi!</h1>
+                             <h3 class="font-weight-bolder pb-3 ">I'm Neiver</h3>   
+                            </figcaption>              
+                        </figure>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <nav>
+                        <ul class="nav navbar-collapse collapse flex-column main-navbar align-items-start" role="tablist">      
+                            <li class="nav-item">
+                                <a class="nav-link active" id="about-me-tab" data-toggle="tab" href="#about-me" role="tab" aria-controls="about-me" aria-selected="true">
+                                    About me
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="more-about-me-tab" data-toggle="tab" href="#more-about-me" role="tab" aria-controls="more-about-me" aria-selected="false">
+                                    More about me
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="hobbies-tab" data-toggle="tab" href="#hobbies" role="tab" aria-controls="hobbies" aria-selected="false">
+                                    Hobbies
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="songs-favorite-tab" data-toggle="tab" href="#songs-favorite" role="tab" aria-controls="songs-favorite" aria-selected="false">
+                                    Songs favorite
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="food-favorite-tab" data-toggle="tab" href="#food-favorite" role="tab" aria-controls="food-favorite" aria-selected="false">
+                                    Food favorite
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+            <section class="col-sm-8">
+                <main class="d-sm-flex justify-content-center align-items-start h-100 flex-column tab-content" id="myTabContent">
+
+                    <article class="tab-pane fade show active" id="about-me" role="tabpanel" aria-labelledby="about-me-tab">
+                        <h2> About me</h2>
+                     <p><i>Mi nombre es Neiver Tapia, soy estudiante de la universidad de Antioquia, vivo en Medellin en el sector de Aranjuez</i></p>
+                    </article>
+
+                    <article class="tab-pane fade" id="more-about-me" role="tabpanel" aria-labelledby="more-about-me-tab">
+                        <h2>More about me</h2>
+                        <p><i>Tengo 21 años de edad, naci en Jardin, me gusta mucho estar rodeado de familia y amigos. Los planes a futuro es ser un desarrollador profesional e ir a conocer a Silicon Valley y espero poder trabajar algún día allí</i></p>
+                    </article>
+
+                    <article class="tab-pane fade" id="hobbies" role="tabpanel" aria-labelledby="hobbies-tab">
+                        <h2>Hobbies</h2>
+                        <p>  <i class="fas fa-code ">  Dedico gran parte de mi tiempo libre a la programacion, aunque tambien dedico tiempo a jugar soccer <i class="fas fa-futbol"></i>, pero disfruto mas ver lo ejejej.<br>
+                         Comparto gran parte de mi tiempo a la familia <i class="far fa-handshake"></i>, escuchar musica <i class="fas fa-music"></i>, e ir a conocer. <i class="fas fa-map-marked"></i> 
+                        </i></p>
+                    </article>
+
+                    <article class="tab-pane fade text-left" id="songs-favorite" role="tabpanel" aria-labelledby="songs-favorite-tab">
+                        <h2>Songs favorite</h2>
+                        <p><i>Me gusta mucho la musica en ingles pero no olvido los vallenatos</i></p>
+                        <ol>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <li>
+                                         <i>You Are Beautiful</i><br>
+                                         <iframe width="300" height="200" src="https://www.youtube.com/embed/2PjOg9newCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                                        </li>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <li>
+                                         <i class="text-center" >I will always love you</i>
+                                         <iframe width="300" height="200" src="https://www.youtube.com/embed/MJ5RPKGEltM" frameborder="0" allow="accelerometer"></iframe>
+                                        </li>
+                                    </div>
+                                </div> 
+                                <div class="row">   
+                                    <div class="col-sm-6">
+                                        <li>
+                                         <i>I'm yours</i>
+                                         <iframe width="300" height="200" src="https://www.youtube.com/embed/LYhrYHmUPn0" frameborder="0" allow="accelerometer"></iframe>
+                                        </li>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <li>
+                                         <i>Instant crush</i>
+                                         <iframe width="300" height="200" src="https://www.youtube.com/embed/a5uQMwRMHcs?start=21" frameborder="0" allow="accelerometer"></iframe>
+                                        </li>
+                                    </div>
+                                </div>
+                                <div class="row">    
+                                    <div class="col-sm-6">
+                                        <li>
+                                         <i>Molotov puto</i>
+                                         <iframe width="300" height="200" src="https://www.youtube.com/embed/CzEbm7yup7g?start=6" frameborder="0" allow="accelerometer"></iframe>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </ol>
+                        <p class="text-center" id="btn" >
+                         <button class="btn btn-primary" type="submit">Next</button>
+                        </p>
+                    </article>
+
+                    <article class="tab-pane fade text-left" id="food-favorite" role="tabpanel" aria-labelledby="food-favorite-tab">
+                     <h2>Food favorite</h2>
+                        <ul id="ol">
+                         <li><i class="fas fa-pizza-slice"> Pizza</i></li>
+                         <li><i class="fas fa-seedling"> Vegetales</i></li>
+                         <li><i class="fas fa-hamburger"> Hamburguesas</i></li>
+                         <li><i class="fas fa-utensils"> Sopa</i></li>
+                         <li><i class="fas fa-apple-alt"> Frutas</i></li>
+                        </ul>
+                    </article>
+                </main>
+            </section>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+
+</body>
+</html>
